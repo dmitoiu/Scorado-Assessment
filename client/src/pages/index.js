@@ -17,14 +17,16 @@ export default function Home() {
               'Content-Type': 'application/json',
           },
           body: JSON.stringify(board)
-      }).then(response => response.json()).then(data => setBoard(data));
-      console.log("Solved Board: ", board);
+      }).then(response => response.json()).then(data => {
+          setBoard(data);
+          console.log("Solved Board: ", data);
+      });
   }
 
   let updateBoard = (row, column, event) => {
-      let copy = [...board];
-      copy[row][column] = +event.target.value;
-      setBoard(copy);
+      let previousBoard = [...board];
+      previousBoard[row][column] = +event.target.value;
+      setBoard(previousBoard);
       console.log("Board: ", board);
   }
 

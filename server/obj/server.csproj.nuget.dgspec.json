@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Dev\\web\\Sudoku\\server\\server.csproj": {}
+    "D:\\Dev\\web\\Sudoku\\server\\server.csproj": {}
   },
   "projects": {
-    "d:\\Dev\\web\\Sudoku\\server\\server.csproj": {
+    "D:\\Dev\\web\\Sudoku\\server\\server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Dev\\web\\Sudoku\\server\\server.csproj",
+        "projectUniqueName": "D:\\Dev\\web\\Sudoku\\server\\server.csproj",
         "projectName": "server",
-        "projectPath": "d:\\Dev\\web\\Sudoku\\server\\server.csproj",
+        "projectPath": "D:\\Dev\\web\\Sudoku\\server\\server.csproj",
         "packagesPath": "C:\\Users\\Darie\\.nuget\\packages\\",
-        "outputPath": "d:\\Dev\\web\\Sudoku\\server\\obj\\",
+        "outputPath": "D:\\Dev\\web\\Sudoku\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Darie\\AppData\\Roaming\\NuGet\\NuGet.Config",
